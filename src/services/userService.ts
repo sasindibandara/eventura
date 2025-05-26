@@ -1,7 +1,7 @@
 import { getAuthToken } from "@/utils/auth";
 import { UserResponse } from "@/types/user";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://ooadbackend-production.up.railway.app";
+const API_URL = "https://ooadbackend-production.up.railway.app";
 
 export type { UserResponse };
 
