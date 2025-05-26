@@ -3,7 +3,7 @@ import { PitchRequest, PitchResponse, PitchPage } from "@/types/pitch";
 import { api } from "./api";
 import { Page } from "@/types/common";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080";
+const API_URL = import.meta.env.VITE_API_URL || "https://ooadbackend-production.up.railway.app/";
 
 class PitchService {
   async createPitch(data: PitchRequest): Promise<PitchResponse> {
