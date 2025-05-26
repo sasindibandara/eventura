@@ -1,6 +1,6 @@
 import { LoginRequest, RegisterRequest, UpdateUserRequest, User } from "@/types/auth";
 
-const API_URL = "http://localhost:8080/api";
+const API_URL = "https://ooadbackend-production.up.railway.app/api";
 
 export const authService = {
   async register(data: RegisterRequest): Promise<User> {
