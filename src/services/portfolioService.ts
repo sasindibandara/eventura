@@ -1,7 +1,7 @@
 import { getAuthToken } from "@/utils/auth";
 import { PortfolioRequest, PortfolioResponse, PortfolioPage } from "@/types/portfolio";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://ooadbackend-production.up.railway.app/";
+const API_URL = "https://ooadbackend-production.up.railway.app";
 
 class PortfolioService {
   async createPortfolio(providerId: number, data: PortfolioRequest): Promise<PortfolioResponse> {
