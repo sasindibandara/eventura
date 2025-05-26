@@ -3,7 +3,7 @@ import { getAuthToken } from "@/utils/auth";
 import { api } from "./api";
 import { Page } from "@/types/common";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080";
+const API_URL = import.meta.env.VITE_API_URL || "https://ooadbackend-production.up.railway.app";
 
 class ServiceRequestService {
   async createRequest(data: ServiceRequestRequest): Promise<ServiceRequestResponse> {
