@@ -1,7 +1,7 @@
 import { getAuthToken } from "@/utils/auth";
 import { Page, PaymentResponse } from "@/types/common";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://ooadbackend-production.up.railway.app/";
+const API_URL = "https://ooadbackend-production.up.railway.app";
 
 
 class PaymentService {
