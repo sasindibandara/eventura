@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               <Link to="/" className="text-eventura-800 font-bold text-black text-xl flex items-center gap-2">
-                <img src="/public/ABSS.jpg" alt="Eventura Logo" className="h-6 w-6 rounded-full object-cover" />
+                <img src="./ABBS.jpg" alt="Eventura Logo" className="h-6 w-6 rounded-full object-cover" />
                 Eventura
               </Link>
             </div>
