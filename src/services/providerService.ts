@@ -1,6 +1,6 @@
 import { ProviderProfileRequest, ProviderProfileResponse } from "@/types/provider";
 
-const API_URL = "https://ooadbackend-production.up.railway.app/";
+const API_URL = "https://ooadbackend-production.up.railway.app";
 
 interface PageResponse<T> {
   content: T[];
