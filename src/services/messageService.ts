@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/messages';
+const API_URL = 'https://ooadbackend-production.up.railway.app/api/messages';
 
 export interface Message {
     id: number;
