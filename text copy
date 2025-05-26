@@ -1,0 +1,135 @@
+Eventura Platform Overview
+
+Purpose
+
+Eventura is a web-based event management platform that streamlines the process of planning and executing events by connecting event planners (Clients) with verified service providers (Providers). The platform facilitates service requests, provider pitches, direct connections, payments, reviews, and administrative oversight, ensuring a seamless and secure experience for all users.
+
+Key Features
+
+
+
+
+
+User Registration and Authentication: Users can register as Clients, Providers, or Admins, with JWT-based authentication for secure access.
+
+
+
+Service Requests: Clients create service requests specifying event details, budget, and service type, which Providers can browse and pitch for.
+
+
+
+Provider Profiles: Providers maintain profiles with portfolios, verification documents, and reviews to showcase their services.
+
+
+
+Direct Connections: Clients can send direct connection requests to Providers for specific events, with options to accept or reject.
+
+
+
+Pitches: Providers submit pitches for service requests, including proposed prices and details, which Clients can review and assign.
+
+
+
+Payments: Secure payment processing for completed services, with records accessible to both Clients and Providers.
+
+
+
+Reviews: Clients leave ratings and comments for Providers, enhancing trust and transparency.
+
+
+
+Notifications: Real-time notifications for new requests, pitches, connections, and status updates.
+
+
+
+Admin Dashboard: Admins manage users, service requests, documents, portfolios, and reviews, ensuring platform integrity.
+
+
+
+Search and Pagination: Browse providers and service requests with filtering and pagination for scalability.
+
+User Roles
+
+
+
+
+
+Client:
+
+
+
+
+
+Register and log in to create service requests.
+
+
+
+Browse and connect with Providers.
+
+
+
+Review pitches, assign Providers, make payments, and leave reviews.
+
+
+
+Manage profile, view notifications, and track requests/connections.
+
+
+
+Provider:
+
+
+
+
+
+Register, log in, and create/update a verified profile with portfolios and documents.
+
+
+
+Browse and pitch for service requests.
+
+
+
+Accept/reject direct connection requests.
+
+
+
+View payments, notifications, and manage profile/documents.
+
+
+
+Admin:
+
+
+
+
+
+Log in to manage user accounts (status updates, deletions).
+
+
+
+Approve/reject verification documents and portfolios.
+
+
+
+Moderate reviews and service requests.
+
+
+
+View platform-wide notifications and analytics.
+
+Technical Architecture
+
+
+
+
+
+Backend: Spring Boot with Java, using Spring Security for JWT authentication and authorization.
+
+
+
+Database: Relational database (e.g., MySQL/PostgreSQL) storing users, requests, pitches, payments, and notifications.
+
+
+
+API: RESTful API with endpoints for user management, service requests, connections, payments, and admin tasks.
